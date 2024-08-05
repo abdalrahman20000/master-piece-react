@@ -8,6 +8,7 @@ const LibraryItem = ({ name, comments, date }) => (
       <div className="bg-white rounded-full p-2">
         <User className="w-6 h-6 text-dark-blue" />
       </div>
+      {/* <div className=""></div> */}
       <div className="flex-grow">
         <input
           type="text"
