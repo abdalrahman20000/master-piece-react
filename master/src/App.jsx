@@ -8,6 +8,7 @@ import Footer_m from './Components/footer_m'
 import SignInPage_l from './Pages/learner/log_in_l'
 import SignUpPage_l from './Pages/learner/sign_up_l'
 import SignInPage_m from './Pages/mentor/log_in_m'
+import SignUpPage_m from './Pages/mentor/sign_up_m'
 // import Sign_up_l from './Pages/learner/sign_up'
 // import Log_in_l from './Pages/learner/log_in'
 // import L_Home from './Pages/learner/learner_home'
@@ -45,8 +46,8 @@ function App() {
   return (
     <div className='overflow-hidden'>
       <BrowserRouter>
-        <Header_l></Header_l>
-        {/* <Header_m></Header_m> */}
+        {/* <Header_l></Header_l> */}
+        <Header_m></Header_m>
         <Routes>
           <Route path="/s-register" element={<RegisterSelection></RegisterSelection>}></Route>
 
@@ -74,11 +75,12 @@ function App() {
           <Route path="/mentor-subscrption" element={<SubPage></SubPage>}></Route>
           <Route path="/settings-m" element={<Settings_m></Settings_m>}></Route>
 
+          <Route path="/sign-up-m" element={<SignUpPage_m></SignUpPage_m>}></Route>
           <Route path="/log-in-m" element={<SignInPage_m></SignInPage_m>}></Route>
 
         </Routes>
         {/* <Footer_l></Footer_l> */}
-        {/* <Footer_m></Footer_m> */}
+        <Footer_m></Footer_m>
       </BrowserRouter>
 
 

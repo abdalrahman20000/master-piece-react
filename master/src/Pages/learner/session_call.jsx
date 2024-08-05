@@ -17,7 +17,7 @@ function Session_call() {
         <>
             <main>
                 <div className="p-2 ">
-                    <div className="w-full h-screen flex flex-col bg-blue-900 text-white p-2 sm:p-4 md:p-6">
+                    <div className="w-full h-screen flex flex-col bg-dark-blue text-white p-2 sm:p-4 md:p-6">
 
                         {/* <header className="flex justify-between items-center mb-4">
                             <span className="text-lg font-semibold">Messages</span>
@@ -33,7 +33,7 @@ function Session_call() {
 
                         <div className=" flex-col items-center justify-between bg-blue-800 p-4 rounded-lg mb-4 h-[100%]">
                             <div className="h-[75%] flex justify-center items-center">
-                                <div className="w-40 h-40 sm:w-20 sm:h-20 bg-blue-700 rounded-full mx-auto "></div>
+                                <div className="w-40 h-40 sm:w-20 sm:h-20 bg-dark-yellow-hover rounded-full mx-auto "></div>
                             </div>
 
                             <div className="flex justify-center items-end pb-5 space-x-4 h-[25%] ">
@@ -47,141 +47,113 @@ function Session_call() {
                             <div className="flex-grow  space-y-2 mb-4 ">
                                 <div className="bg-blue-800 p-2 rounded-lg max-w-[75%]">
                                     <div className="flex items-center">
-                                        <div className="w-8 h-8 bg-blue-700 rounded-full mr-2 flex-shrink-0"></div>
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full mr-2 flex-shrink-0"></div>
                                         <div className="flex-grow">
-                                            <div className="h-2 bg-blue-700 rounded w-1/2 mb-1"></div>
-                                            <div className="h-2 bg-blue-700 rounded w-3/4"></div>
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1"></div>
+                                            <div className="h-2 bg-white rounded w-3/4"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
                                     <div className="flex items-center justify-end">
                                         <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1 ml-auto"></div>
+                                            <div className="h-2 bg-white rounded w-3/4 ml-auto"></div>
                                         </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full ml-2 flex-shrink-0"></div>
                                     </div>
                                 </div>
 
                                 {/* -----------------test---------------------- */}
+
                                 <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
                                     <div className="flex items-center justify-end">
                                         <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1 ml-auto"></div>
+                                            <div className="h-2 bg-white rounded w-3/4 ml-auto"></div>
                                         </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full ml-2 flex-shrink-0"></div>
+                                    </div>
+                                </div> 
+                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
+                                    <div className="flex items-center justify-end">
+                                        <div className="flex-grow text-right">
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1 ml-auto"></div>
+                                            <div className="h-2 bg-white rounded w-3/4 ml-auto"></div>
+                                        </div>
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full ml-2 flex-shrink-0"></div>
+                                    </div>
+                                </div>
+
+                                <div className="bg-blue-800 p-2 rounded-lg max-w-[75%]">
+                                    <div className="flex items-center">
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full mr-2 flex-shrink-0"></div>
+                                        <div className="flex-grow">
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1"></div>
+                                            <div className="h-2 bg-white rounded w-3/4"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
+                                    <div className="flex items-center justify-end">
+                                        <div className="flex-grow text-right">
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1 ml-auto"></div>
+                                            <div className="h-2 bg-white rounded w-3/4 ml-auto"></div>
+                                        </div>
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full ml-2 flex-shrink-0"></div>
+                                    </div>
+                                </div>
+
+                                <div className="bg-blue-800 p-2 rounded-lg max-w-[75%]">
+                                    <div className="flex items-center">
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full mr-2 flex-shrink-0"></div>
+                                        <div className="flex-grow">
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1"></div>
+                                            <div className="h-2 bg-white rounded w-3/4"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="bg-blue-800 p-2 rounded-lg max-w-[75%]">
+                                    <div className="flex items-center">
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full mr-2 flex-shrink-0"></div>
+                                        <div className="flex-grow">
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1"></div>
+                                            <div className="h-2 bg-white rounded w-3/4"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
+                                    <div className="flex items-center justify-end">
+                                        <div className="flex-grow text-right">
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1 ml-auto"></div>
+                                            <div className="h-2 bg-white rounded w-3/4 ml-auto"></div>
+                                        </div>
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full ml-2 flex-shrink-0"></div>
                                     </div>
                                 </div>
                                 <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
                                     <div className="flex items-center justify-end">
                                         <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1 ml-auto"></div>
+                                            <div className="h-2 bg-white rounded w-3/4 ml-auto"></div>
                                         </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full ml-2 flex-shrink-0"></div>
                                     </div>
                                 </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
+
+                                <div className="bg-blue-800 p-2 rounded-lg max-w-[75%]">
+                                    <div className="flex items-center">
+                                        <div className="w-8 h-8 bg-dark-yellow-hover rounded-full mr-2 flex-shrink-0"></div>
+                                        <div className="flex-grow">
+                                            <div className="h-2 bg-white rounded w-1/2 mb-1"></div>
+                                            <div className="h-2 bg-white rounded w-3/4"></div>
                                         </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
                                     </div>
                                 </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
-                                <div className="bg-blue-700 p-2 rounded-lg max-w-[75%] ml-auto">
-                                    <div className="flex items-center justify-end">
-                                        <div className="flex-grow text-right">
-                                            <div className="h-2 bg-blue-600 rounded w-1/2 mb-1 ml-auto"></div>
-                                            <div className="h-2 bg-blue-600 rounded w-3/4 ml-auto"></div>
-                                        </div>
-                                        <div className="w-8 h-8 bg-blue-600 rounded-full ml-2 flex-shrink-0"></div>
-                                    </div>
-                                </div>
+                                
                                 {/* Add more message bubbles here for a realistic chat view */}
                             </div>
                         </div>
@@ -195,10 +167,10 @@ function Session_call() {
                             </button>
                             <input
                                 type="text"
-                                className="flex-grow bg-transparent focus:outline-none"
+                                className="flex-grow bg-transparent focus:outline-none text-dark-yellow-hover placeholder-dark-yellow"
                                 placeholder="Type a message..."
                             />
-                            <button className="p-2 bg-blue-600 hover:bg-blue-500 rounded-full ml-2">
+                            <button className="flex justify-center items-center p-2 bg-dark-yellow hover:bg-dark-yellow-hover rounded-full ml-2">
                                 <Send className="w-5 h-5" />
                             </button>
                         </div>

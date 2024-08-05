@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'dark-blue': '#111A6F',
-        'light-blue': '#64B5F6',
+        'dark-blue': '#000080',
+        'dark-blue-2': '#000080d8',
+        'dark-yellow': '#ffa600d8',
+        'dark-yellow-hover': '#ffa700',
       },
       borderRadius: {
         'lg': '5px',
